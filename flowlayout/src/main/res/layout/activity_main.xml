@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context=".MainActivity">
+
+    <com.google.android.flowlayout.FlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Android"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Service"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Activity"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Broadcast Receiver"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Content Provider"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="View"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Handler"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="AIDL"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/tag_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="流式布局"
+            android:textColor="#FF2970A6"
+            android:textSize="20sp" />
+
+    </com.google.android.flowlayout.FlowLayout>
+
+</RelativeLayout>
